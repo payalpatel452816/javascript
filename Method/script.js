@@ -183,6 +183,7 @@
     console.log(text)
 }
 
+
 /* JavaScript String repeat() Method*/
 
 {
@@ -217,4 +218,11 @@
 {
     let text="1000"
     console.log(text.valueOf());
+}
+
+/* JavaScript string replace() Method */
+{
+    let text="hello Payal";
+    let newtext=text.replace("hello payal","world");
+    console.log(newtext);
 }
