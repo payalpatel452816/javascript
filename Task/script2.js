@@ -120,3 +120,96 @@
     let result=x<=y;
     console.log(result);
 }
+
+/*  code snippet  */
+
+// var a = "skillQude -decode your Skill";
+// var result= a.substring(12,20);
+// console.log(result);
+
+
+// console.log(NaN===NaN);
+
+// var fruits=["apple","mango","watermelon","orange"];
+// var even_fruits=fruits.filter((ele)=>ele.length%2 !==0);
+// console.log(even_fruits);
+
+
+
+// let a =[1,2,3,4,5];
+// console.log(a.slice(2,4));
+
+
+// var a='hello';
+// var sum=0;
+// for(var i=0; i<a.length; i++){
+//     sum +=(a.charCodeAt(i)-'a'.charCodeAt(0));
+// }
+// console.log(sum);
+
+// console.log(typeof(NaN));
+
+
+
+// const example = ({a,b,c}) =>{
+//     console.log(b*2,a*5,c*2);
+// };
+// example({a:0,b:1,c:2});
+
+
+// let s= "00000001111111";
+// let l=0,r=s.length -1,ans=-1;
+// while(l<=r){
+//     var mid = Math.floor((l*r)/2);
+//     if(s[mid]=='1'){
+//         ans=mid;
+//         r=mid-1;
+//     }
+//     else 
+//     l=mid + 1;
+// }
+// console.log(ans);
+
+
+// const obj1={Name:"Hello",Age:16};
+// const obj2={Name:"Hello",Age:16};
+
+// console.log(obj1===obj2);
+
+
+
+// const obj1= { first :20,second:30, first :50};
+// const obj2 ={...obj1}
+// obj1.third=50;
+// console.log(obj1);
+// console.log(obj2);
+
+
+// function alpha(str){
+//     var arr=str.split("");
+//     res =arr.sort().join("");
+//     return res;
+// }
+// console.log("payal patel");
+// console.log(alpha("payal patel"));
+
+// function findLongestWord(str) {
+//     var strSplit = str.split(' ');
+//     var longestWord = 0;
+//     for(var i = 0; i < strSplit.length; i++){
+//       if(strSplit[i].length > longestWord){
+//       longestWord = strSplit[i].length;
+//        }
+//     }
+//     return longestWord;
+//   }
+//    console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+
+
+// let a =1;
+// if(a !=null)
+//     console.log(1);
+// else
+//   console.log(0)
+
+

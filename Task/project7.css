@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto',sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('pngtree-men-s-day-business-young-blue-constellation-watch-background-image_143907.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    background: transparent;
+    border: 2px solid #ebb7eca1;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+}
+h1{
+    color: #eee;
+    text-align: center;
+    margin-top: 25px;
+}
+.todo-input{
+    flex: 1;
+    outline: none;
+    padding: 10px 10px 10px 20px;
+    background-color: transparent;
+    border: 2px solid #ebb7eca1;
+    border-radius: 30px;
+    color: #eee;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.todo-input::placeholder{
+    color: #bfbfbf;
+}
+.add-button{
+    border: none;
+    outline: none;
+    background: #ebb7eca1;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
